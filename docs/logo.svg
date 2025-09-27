@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <rect width="1000" height="300" rx="20" fill="#111217"/>
+  <!-- Title -->
+  <text x="60" y="120" font-family="Fira Mono, monospace" font-size="64" fill="#E6F8F1">hangman-gleam</text>
+
+  <!-- subtitle -->
+  <text x="60" y="170" font-family="Fira Mono, monospace" font-size="20" fill="#9FBFB0">terminal edition • written in Gleam</text>
+
+  <!-- gallows stylized on the right -->
+  <g transform="translate(660,40)" stroke="#E6F8F1" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M0 240 L0 0 L160 0"/>
+    <path d="M160 0 L160 36"/>
+    <circle cx="160" cy="88" r="28"/>
+    <path d="M160 116 L160 160"/>
+    <path d="M160 132 L132 156"/>
+    <path d="M160 132 L188 156"/>
+    <path d="M160 160 L140 196"/>
+    <path d="M160 160 L180 196"/>
+  </g>
+
+  <!-- row of letter tiles under the title -->
+  <g transform="translate(60,200)">
+    <rect x="0"  y="0" width="60" height="60" rx="6" fill="#E6F8F1"/>
+    <text x="30" y="42" font-family="monospace" font-size="30" text-anchor="middle" fill="#111217">G</text>
+
+    <rect x="74" y="0" width="60" height="60" rx="6" fill="#E6F8F1"/>
+    <text x="104" y="42" font-family="monospace" font-size="30" text-anchor="middle" fill="#111217">L</text>
+
+    <rect x="148" y="0" width="60" height="60" rx="6" fill="#E6F8F1"/>
+    <text x="178" y="42" font-family="monospace" font-size="30" text-anchor="middle" fill="#111217">E</text>
+
+    <rect x="222" y="0" width="60" height="60" rx="6" fill="#E6F8F1"/>
+    <text x="252" y="42" font-family="monospace" font-size="30" text-anchor="middle" fill="#111217">A</text>
+
+    <rect x="296" y="0" width="60" height="60" rx="6" fill="#E6F8F1"/>
+    <text x="326" y="42" font-family="monospace" font-size="30" text-anchor="middle" fill="#111217">M</text>
+  </g>
+</svg>
